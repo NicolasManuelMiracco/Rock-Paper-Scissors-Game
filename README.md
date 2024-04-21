@@ -1,2 +1,5 @@
 # Rock-Paper-Scissors-Game
-A comprehensive C++ implementation of the Rock-Paper-Scissors game featuring enhanced user interaction and score tracking.
+
+One-line description: A comprehensive C++ implementation of the Rock-Paper-Scissors game featuring enhanced user interaction and score tracking.
+
+Summary: This C++ program simulates a Rock-Paper-Scissors game between a user and the computer. It starts by welcoming the player and asking for the number of rounds, with input validation to ensure only integers between 1 and 9 are accepted. The game then proceeds through the specified rounds, each time collecting the user's choice (validated for correct input) and generating a random choice for the computer. The winner of each round is determined by comparing choices according to the game's rules, with a score updated accordingly. If rounds end in a tie, additional rounds are played until a winner emerges. The program uses platform-specific functions to highlight text for better visibility. After each game, players can choose to play again or exit. The implementation handles potential input errors gracefully and ensures an engaging game experience.
